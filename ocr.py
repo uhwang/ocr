@@ -1,8 +1,6 @@
 '''
 
-
-
-python ocr.py YesAnd\yes-crop jpg YesAnd\yes-crop yesand-book.pdf
+python ocr.py book/crop jpg book/crop ./all-book.pdf
 
 '''
 from PIL import Image
